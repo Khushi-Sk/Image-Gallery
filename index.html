@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" defer />
+    <script src="./app.js" defer ></script>
+
+</head>
+
+<body>
+
+    <h1>My Gallery</h1>
+    <div class="container">
+        <div class="fullImage" id="fullImgBox">
+            <img id="fullImg" src="https://wallpaperswide.com/download/beach_hd_2-wallpaper-1280x1280.jpg" />
+            <span>
+                <img onclick="closeImage()" id="cross" src="./cross.png"/>
+            </span>
+        </div>
+        <div id="thumbnail" class="thumbnails" >
+            <img alt="beach image" onclick="openFullImg(this.src)" src="https://wallpaperswide.com/download/beach_hd_2-wallpaper-1280x1280.jpg" />
+            <img alt="cute puppies" onclick="openFullImg(this.src)" src="https://i.guim.co.uk/img/media/fccf2d648bd42dae41b65cad55925181506ec5e7/0_117_6016_3611/master/6016.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=1a6ae016322e5bf310e4351808be2235" />
+            <img alt="beautiful northern lights" onclick="openFullImg(this.src)" src="https://img.freepik.com/premium-photo/colorful-aurora-borealis-northern-lights-streaming-color-winter-landscape_926199-141206.jpg" />
+            <img alt="beautiful northern lights" onclick="openFullImg(this.src)" src="https://www.traveloffpath.com/wp-content/uploads/2023/09/woman-with-northen-lights-in-the-background-1-1.jpg" />
+            <img alt="nature image" onclick="openFullImg(this.src)" src="https://img.freepik.com/premium-photo/wonderful-autumn-sunrise-hintersee-lake-amazing-morning-view-bavarian-alps-austrian-border-germany-europe-beauty-nature-concept-background_1156758-70251.jpg?size=338&ext=jpg&ga=GA1.1.553209589.1728777600&semt=ais_hybrid-rr-similar" />
+
+            <img alt="bird flying above the sea" onclick="openFullImg(this.src)" src="https://24ai.tech/en/wp-content/uploads/sites/3/2023/10/01_product_1_sdelat-izobrazhenie-1-1-2-scaled.jpg" />
+            <img alt="cartoon cat" onclick="openFullImg(this.src)" src="https://24ai.tech/en/wp-content/uploads/sites/3/2023/10/01_product_1_sdelat-izobrazhenie-1-1-6-scaled.jpg" />
+            <img alt="hot air balloons" onclick="openFullImg(this.src)" src="https://static-cse.canva.com/blob/1625993/ComposeStunningImages6.jpg" />
+            <img alt="flowing river" onclick="openFullImg(this.src)" src="https://wallpaperswide.com/download/nature_hd_background-wallpaper-1024x1024.jpg" />
+            <img alt="purple flower" onclick="openFullImg(this.src)" src="https://wallpapercave.com/wp/wp9739176.jpg" />
+            <img alt="mountain and the road" onclick="openFullImg(this.src)" src="https://images.newscientist.com/wp-content/uploads/2022/09/27105540/SEI_1270815291.jpg?crop=1:1,smart&width=1200&height=1200&upscale=true" />
+            <img alt="nature image" onclick="openFullImg(this.src)" src="https://redandwinedecor.in/wp-content/uploads/2023/04/4-18.jpg" />
+        
+        </div>
+            
+    </div>
+
+</body>
+</html>
